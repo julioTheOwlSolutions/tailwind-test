@@ -1,0 +1,22 @@
+---
+description: 'A standard theme for the Bit design language.'
+labels: ['bit', 'theme', 'design', 'base']
+---
+
+import { LightTheme, useTheme } from './light-theme';
+
+Bit flavored theme with default light theme values, using the [Theme Provider](https://bit.dev/teambit/base-react/themes/theme-provider).  
+Here we set the schema for our theme, and provide the defaults values (light ones).
+
+## Basic usage
+
+```tsx
+function App() {
+  return (
+    <LightTheme>
+      {/* components here will now have access to the theme */}
+      <ThemedButton />
+    </LightTheme>
+  );
+}
+```

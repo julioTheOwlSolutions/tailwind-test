@@ -1,0 +1,69 @@
+{
+  "environments/env-with-tailwind": {
+    "scope": "",
+    "version": "",
+    "mainFile": "index.ts",
+    "rootDir": "tailwind-test/environments/env-with-tailwind"
+  },
+  "generator/owl-templates": {
+    "scope": "",
+    "version": "",
+    "mainFile": "index.ts",
+    "rootDir": "tailwind-test/generator/owl-templates"
+  },
+  "themes/base-theme": {
+    "scope": "",
+    "version": "",
+    "mainFile": "index.ts",
+    "rootDir": "tailwind-test/themes/base-theme"
+  },
+  "themes/mercado-theme": {
+    "scope": "",
+    "version": "",
+    "mainFile": "index.ts",
+    "rootDir": "tailwind-test/themes/mercado-theme"
+  },
+  "themes/light-theme": {
+    "scope": "",
+    "version": "",
+    "mainFile": "index.ts",
+    "rootDir": "tailwind-test/themes/light-theme"
+  },
+  "ui/atoms/button": {
+    "scope": "",
+    "version": "",
+    "mainFile": "index.ts",
+    "rootDir": "tailwind-test/ui/atoms/button"
+  },
+  "ui/atoms/card": {
+    "scope": "",
+    "version": "",
+    "mainFile": "index.ts",
+    "rootDir": "tailwind-test/ui/atoms/card"
+  },
+  "ui/atoms/color-box": {
+    "scope": "",
+    "version": "",
+    "mainFile": "index.ts",
+    "rootDir": "tailwind-test/ui/atoms/color-box"
+  },
+  "ui/atoms/progress-bar": {
+    "scope": "",
+    "version": "",
+    "mainFile": "index.ts",
+    "rootDir": "tailwind-test/ui/atoms/progress-bar"
+  },
+  "ui/molecules/cards/cards-with-goals-progress": {
+    "scope": "",
+    "version": "",
+    "mainFile": "index.ts",
+    "rootDir": "tailwind-test/ui/molecules/cards/cards-with-goals-progress"
+  },
+  "ui/molecules/list-tokens": {
+    "scope": "",
+    "version": "",
+    "mainFile": "index.ts",
+    "rootDir": "tailwind-test/ui/molecules/list-tokens"
+  },
+  "$schema-version": "15.0.0"
+}

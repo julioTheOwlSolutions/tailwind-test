@@ -1,0 +1,35 @@
+---
+description: A CardWithDonutChart component.
+labels: ['text', 'ui', 'component']
+---
+
+import { CardWithDonutChart } from './card-with-donut-chart.tailwind';
+import { LightTheme } from '@owlsolutions/tailwind-test.themes.light-theme';
+
+A component that does something special.
+
+### Component usage
+
+```js
+<LightTheme>
+  <CardWithDonutChart
+    title="Status Open Purchase Orders Lines"
+    data={[{ name: 'Next 10 days', value: 5 }]}
+  />
+</LightTheme>
+```
+
+### Render CardWithDonutChart
+
+```js live
+<LightTheme>
+  <CardWithDonutChart
+    title="Status Open Purchase Orders Lines"
+    data={[
+      { name: 'Next 10 days', value: 5 },
+      { name: 'Past Due', value: 2 },
+      { name: 'Future', value: 8 },
+    ]}
+  />
+</LightTheme>
+```
